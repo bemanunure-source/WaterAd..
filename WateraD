@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-ZW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WaterAd | The Billboard In Your Hand</title>
+    
+    <!-- Scripts & Styles (Fixed Links) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com">
+    
+    <style>
+        .glass { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .water-gradient { background: linear-gradient(135deg, #0f172a 0%, #0369a1 50%, #0891b2 100%); }
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+
+<body class="water-gradient font-sans text-white leading-normal">
+
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 glass px-6 py-4 flex justify-between items-center mx-4 mt-4 rounded-2xl">
+        <div class="flex items-center gap-3">
+            <i class="fas fa-droplet text-cyan-400 text-2xl"></i>
+            <span class="text-2xl font-black tracking-tighter italic uppercase text-white tracking-widest">WaterAd</span>
+        </div>
+        <a href="https://wa.me!" 
+           class="bg-cyan-500 hover:bg-cyan-400 text-white px-6 py-2.5 rounded-full font-bold transition shadow-lg shadow-cyan-900/50 text-sm">
+           WhatsApp Us
+        </a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="py-24 px-6 text-center">
+        <div class="max-w-4xl mx-auto">
+            <span class="bg-cyan-500/20 text-cyan-300 px-4 py-1.5 rounded-full text-[10px] font-black uppercase tracking-widest mb-8 inline-block border border-cyan-500/30">Harare • Chitungwiza • Bulawayo</span>
+            <h1 class="text-6xl md:text-8xl font-black mb-8 leading-[0.9] tracking-tighter">
+                The <span class="text-cyan-400">Billboard</span> <br> In Your Hand.
+            </h1>
+            <p class="text-xl md:text-2xl text-cyan-100/70 mb-12 max-w-2xl mx-auto leading-relaxed">
+                Stop paying for ads people drive past. We put your brand on premium free water that stays with your customers for 30 minutes.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-6 justify-center">
+                <a href="#pricing" class="bg-white text-slate-900 px-12 py-5 rounded-2xl font-black text-xl hover:bg-cyan-400 transition-all shadow-2xl shadow-cyan-500/20">View Ad Packages</a>
+                <a href="#how" class="glass px-12 py-5 rounded-2xl font-black text-xl hover:bg-white/10 transition">How It Works</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-20 px-6">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+            <div class="glass p-10 rounded-[2.5rem] border-t-4 border-cyan-500">
+                <div class="text-5xl font-black text-cyan-400 mb-2">100%</div>
+                <p class="font-bold uppercase tracking-widest text-xs text-cyan-200 mb-4">View Rate - Guaranteed</p>
+                <p class="text-cyan-100/60 leading-relaxed">Every label is seen while they hydrate. Guaranteed engagement for your brand.</p>
+            </div>
+            <div class="glass p-10 rounded-[2.5rem]">
+                <div class="text-5xl font-black text-cyan-400 mb-2">20 min</div>
+                <p class="font-bold uppercase tracking-widest text-xs text-cyan-200 mb-4">Average Interaction</p>
+                <p class="text-cyan-100/60 leading-relaxed">The average time a customer spends with your brand in their hand.</p>
+            </div>
+            <div class="glass p-10 rounded-[2.5rem]">
+                <div class="text-5xl font-black text-cyan-400 mb-2 italic">Social</div>
+                <p class="font-bold uppercase tracking-widest text-xs text-cyan-200 mb-4">Impact & Community</p>
+                <p class="text-cyan-100/60 leading-relaxed">Be a community hero. Provide free, clean water to Zimbabweans.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how" class="py-24 px-6 bg-slate-950/20">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-4xl font-black mb-16 tracking-widest uppercase">How It Works</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 relative">
+                <div>
+                    <div class="w-16 h-16 bg-cyan-500 rounded-2xl flex items-center justify-center text-2xl font-bold mb-6 mx-auto">1</div>
+                    <h3 class="text-xl font-bold mb-4 uppercase text-cyan-400">Sponsor</h3>
+                    <p class="text-cyan-100/60">Choose your package and provide your custom QR links and artwork.</p>
+                </div>
+                <div>
+                    <div class="w-16 h-16 bg-cyan-500 rounded-2xl flex items-center justify-center text-2xl font-bold mb-6 mx-auto">2</div>
+                    <h3 class="text-xl font-bold mb-4 uppercase text-cyan-400">Production</h3>
+                    <p class="text-cyan-100/60">We print waterproof BOPP labels and apply them to premium bottled water.</p>
+                </div>
+                <div>
+                    <div class="w-16 h-16 bg-cyan-500 rounded-2xl flex items-center justify-center text-2xl font-bold mb-6 mx-auto">3</div>
+                    <h3 class="text-xl font-bold mb-4 uppercase text-cyan-400">Hydrate</h3>
+                    <p class="text-cyan-100/60">We distribute the free water at high-traffic hubs, putting your brand in their hands.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-24 px-6">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-4xl font-black mb-16 tracking-widest uppercase">Ad Packages</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <div class="glass p-8 rounded-3xl text-left border-l-4 border-cyan-500">
+                    <h3 class="font-bold text-cyan-400 uppercase text-[10px] tracking-[0.2em] mb-4">Bronze</h3>
+                    <div class="text-4xl font-black mb-1">$350</div>
+                    <p class="text-xs text-cyan-100/40 mb-6">500 Bottles</p>
+                    <a href="https://wa.me" class="block text-center py-3 bg-white/5 rounded-xl font-bold hover:bg-cyan-500 transition">Enquire</a>
+                </div>
+
+                <div class="glass p-8 rounded-3xl text-left border-4 border-cyan-500 scale-105 bg-cyan-500/10 shadow-2xl shadow-cyan-500/20">
+                    <h3 class="font-bold text-cyan-400 uppercase text-[10px] tracking-[0.2em] mb-4">Silver</h3>
+                    <div class="text-4xl font-black mb-1">$600</div>
+                    <p class="text-xs text-cyan-100/40 mb-6">1,000 Bottles</p>
+                    <a href="https://wa.me" class="block text-center py-3 bg-cyan-500 rounded-xl font-bold hover:bg-cyan-400 transition shadow-lg shadow-cyan-500/30">Book Now</a>
+                </div>
+
+                <div class="glass p-8 rounded-3xl text-left border-l-4 border-cyan-500">
+                    <h3 class="font-bold text-cyan-400 uppercase text-[10px] tracking-[0.2em] mb-4">Platinum</h3>
+                    <div class="text-4xl font-black mb-1">$1,350</div>
+                    <p class="text-xs text-cyan-100/40 mb-6">2,500 Bottles</p>
+                    <a href="https://wa.me" class="block text-center py-3 bg-white/5 rounded-xl font-bold hover:bg-cyan-500 transition">Select</a>
+                </div>
+
+                <div class="glass p-8 rounded-3xl text-left border-l-4 border-slate-700 bg-slate-950/50">
+                    <h3 class="font-bold text-cyan-400 uppercase text-[10px] tracking-[0.2em] mb-4 text-white">Gold</h3>
+                    <div class="text-4xl font-black mb-1">$2,500</div>
+                    <p class="text-xs text-cyan-100/40 mb-6">5,000 Bottles</p>
+                    <a href="https://wa.me" class="block text-center py-3 bg-white/5 rounded-xl font-bold hover:bg-cyan-500 transition">Contact</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-white/10 text-center text-cyan-100/20 text-[10px] font-bold uppercase tracking-[0.3em]">
+        &copy; 2026 WaterAd Zimbabwe • Chitungwiza • Harare
+    </footer>
+
+</body>
+</html>
